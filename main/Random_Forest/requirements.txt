@@ -1,0 +1,9 @@
+flask
+gunicorn
+numpy
+torch
+firebase_admin
+flask
+datetime
+joblib
+pillow
