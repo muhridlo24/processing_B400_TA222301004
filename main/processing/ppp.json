@@ -1,0 +1,171 @@
+{
+    'message': "Prediksi: Error ketika melakukan prediksi jenis kerusakan. Error: {'1': [2, 'Horizontal Misalignment'], '2': [1, 'Imbalance'], '3': [4, None], 'sorted_list': [0.9920423626899719, 0.007745901122689247, 0.0002117162075592205, 1.9567478304338692e-08, 3.986608000097411e-15]}."
+}
+
+{'message': 'temperature normal, maksimum: 59.09, minimum: 51.02, meningkat dengan gradien 7.19', 'priority': [0, 0, 0], 'title': []}
+
+result temperature:  {'message': 'temperature sedang: 64.31, maksimum: 67.98, minimum: 60.46, meningkat dengan gradien 5.68', 'priority': [0, 0, 0], 'title': []}
+
+result temperature:  {'message': 'temperature bahaya: 76.98, maksimum: 97.67, minimum: 50.52, meningkat dengan gradien 232.52', 'priority': [0, 2, 0], 'title': ['temperature tinggi']}   
+Temperature:  0.0009996891021728516
+
+{'temperature bahaya: 95.45, maksimum: 99.07, minimum: 90.44, meningkat dengan gradien 7.79', 'priority': [2, 2, 2], 'title': ['temperature tinggi', 'temperature tinggi', 'temperature tinggi']}
+
+result RPM:  {'message': 'rpm normal dengan nilai 2492.78, Maksimum: 2521.67, Minimum: 2454.91, Stabilitas: 0.01', 'priority': {'message': ['rpm normal dengan nilai 2492.78', 'rpm normal dengan nilai 2492.78', 'rpm normal dengan nilai 2492.78'], 'priority': [0, 0, 0]}, 'title': []}
+
+
+{
+    'message': 'rpm normal dengan nilai 2480.37, Maksimum: 2514.03, Minimum: 2452.13, Stabilitas: 0.01', 
+    'priority': {
+        'message': ['rpm normal dengan nilai 2480.37', 'rpm normal dengan nilai 2480.37', 'rpm normal dengan nilai 2480.37'],
+        'priority': [0, 0, 0]},
+        'title': []}
+
+
+{'message': 'rpm normal dengan nilai 2504.35, Maksimum: 2537.94, Minimum: 2462.61, Stabilitas: 0.01', 'priority': [0, 0, 0], 'title': []}
+
+result RPM:  {'message': 'rpm lebih rendah dari batas toleransi 5% dengan nilai 2366.95, Maksimum: 2608.82, Minimum: 2202.93, Stabilitas: 0.06', 'priority': [2, 0, 2], 'title': ['rpm tidak stabil', 'rpm tidak stabil']}
+
+result RPM:  {'message': 'rpm lebih tinggi dari batas toleransi 5% dengan nilai 2642.14, Maksimum: 2869.66, Minimum: 2504.28, Stabilitas: 0.04', 'priority': [2, 2, 0], 'title': ['rpm tidak stabil', 'rpm tidak stabil']}
+
+result RPM:  {'message': 'rpm sangat tidak stabil dengan nilai 2187.88, Maksimum: 2268.22, Minimum: 2109.88, Stabilitas: 0.02', 'priority': [2, 2, 2], 'title': []}
+
+{
+    'NUM_EPOCHS': 20, 
+    'BATCH_SIZE': 32, 
+    'TIME_STEPS': 50, 
+    'STEPS_PER_EPOCH': 100, 
+    'LEARNING_RATE': 0.01, 
+    'NUM_OUTPUTS': 5, 
+    'NUM_UNITS': 128, 
+    'available': 1, 
+    'machine_id': 'LHL01', 
+    'METHOD': ' http://10.0.1.20:5000/rnn-janet', 
+    'data': '1.6953489931043826,-0.7649559847625726,-0.880201377796897,0.4930514486404328,-0.43532373153329346,0.17500379970308433,-0.15217851621622056,-0.36090940472308114,-0.2588211043880462,453110.05916056526,130.23726404486317,-0.2718878677882675,98178.43461036174'}
+
+
+    result vibrasi:  {'message': 'Prediksi vibration Bahaya (Imbalance 71.5%, Horizontal Misalignment 28.5%, Normal 0.0%), Vrms Good: 0.12 m/sRMS', 'priority': [2, 0], 'title': ['vibration Imbalance']}
+
+    {'message': 'Vrms Good: 0.57 m/sRMS', 'priority': 0}
+
+
+ticket:  {
+    'id': '2023-16-05@11:36:59-Machine-LHL01', 
+    'title': 'Cek temperature tinggi', 
+    'detail': "6 dari 7 (85.71%) Indikator terdeteksi abnormal pada 2023-05-16@11:36 dengan detail: 3 dari 3 (100.0%): temperature bahaya: 105.33, maksimum: 109.18, minimum: 100.25, meningkat dengan gradien 10.22.     3 dari 3 (100.0%): rpm sangat tidak stabil dengan nilai 2255.83, Maksimum: 2298.69, Minimum: 2159.96, Stabilitas: 0.02.     0 dari 1 (0.0%): Prediksi: Error ketika melakukan prediksi jenis kerusakan. Error: {'1': [2, 'Horizontal Misalignment'], '2': [1, 'Imbalance'], '3': [4, None], 'sorted_list': [0.9945335388183594, 0.0054614245891571045, 5.017291641706834e-06, 3.1496960595234214e-09, 1.0434357472835758e-15]}. , Vrms Good: 0.59 m/sRMS", 
+    'issuer': 'Machine', 
+    'machine_id': 'LHL01', 
+    'plant': 'J2', 
+    'priority': 2, 
+    'status': 1, 
+    'created': datetime.datetime(2023, 5, 16, 11, 36, 59, 907994, tzinfo=<StaticTzInfo 'GMT'>), 
+    'deadline': datetime.datetime(2023, 5, 16, 19, 36, 59, 806486, tzinfo=<StaticTzInfo 'GMT'>), 
+    'modified': datetime.datetime(2023, 5, 16, 11, 36, 59, 907994, tzinfo=<StaticTzInfo 'GMT'>)}       
+    
+    {'StartTime': datetime.datetime(2023, 5, 16, 5, 52, 11, tzinfo=datetime.timezone.utc), 'EndTime': datetime.datetime(2023, 5, 16, 9, 52, 11, tzinfo=datetime.timezone.utc), 'Subject': 'LHL01', 'Description': 'Cek vibration Imbalance, temperature tinggi', 'Id': '2023-16-05@12:52:11-Machine', 'User': 'Machine', 'duration': datetime.timedelta(seconds=14400)}
+
+
+    {'EndTime': datetime.datetime(2023, 4, 18, 11, 15, tzinfo=<UTC>), 'StartTime': datetime.datetime(2023, 4, 18, 10, 0, tzinfo=<UTC>), 'Subject': 'LHL01', 'Description': 'cek mesin status', 'Id': '123bange', 'User': 'None', 'duration': datetime.timedelta(seconds=4500)}
+
+{
+    '2023-19-04@12:12:36-Produksi': {
+        'StartTime': datetime.datetime(2023, 4, 18, 7, 0, tzinfo=<UTC>), 
+        'User': 'Produksi', 
+        'Description': 
+        'Bulk02', 
+        'EndTime': datetime.datetime(2023, 4, 18, 10, 59, tzinfo=<UTC>), 
+        'Id': '2023-19-04@12:12:36-Produksi', 
+        'Subject': 'LHL01', 
+        'duration': datetime.timedelta(seconds=14340)}, 
+    '2023-19-04@12:12:37-Produksi': {
+        'StartTime': datetime.datetime(2023, 4, 18, 12, 0, tzinfo=<UTC>), 
+        'User': 'Produksi', 
+        'Description': 'Bulk02', 
+        'EndTime': datetime.datetime(2023, 4, 18, 14, 59, tzinfo=<UTC>), 
+        'Id': '2023-19-04@12:12:37-Produksi', 
+        'Subject': 'LHL01', 
+        'duration': datetime.timedelta(seconds=10740)}, 
+    '2023-19-04@12:12:38-Produksi': {
+        'StartTime': datetime.datetime(2023, 4, 18, 15, 0, tzinfo=<UTC>), 
+        'User': 'Produksi', 
+        'Description': 'Bulk02', 
+        'EndTime': datetime.datetime(2023, 4, 18, 16, 59, tzinfo=<UTC>), 
+        'Id': '2023-19-04@12:12:38-Produksi', 
+        'Subject': 'LHL01', 
+        'duration': datetime.timedelta(seconds=7140)}, 
+    '2023-19-04@12:12:39-Produksi': {
+        'StartTime': datetime.datetime(2023, 4, 18, 17, 0, tzinfo=<UTC>), 
+        'User': 'Produksi', 'Description': 'Bulk02', 
+        'EndTime': datetime.datetime(2023, 4, 18, 20, 59, tzinfo=<UTC>), 
+        'Id': '2023-19-04@12:12:38-Produksi', 
+        'Subject': 'LHL01', 
+        'duration': datetime.timedelta(seconds=14340)}, '2023-19-04@12:12:40-Produksi': {'StartTime': datetime.datetime(2023, 4, 18, 21, 0, tzinfo=<UTC>), 'User': 'Produksi', 'Description': 'Bulk02', 'EndTime': datetime.datetime(2023, 4, 18, 23, 59, tzinfo=<UTC>), 'Id': '2023-19-04@12:12:38-Produksi', 'Subject': 'LHL01', 'duration': datetime.timedelta(seconds=10740)}, '2023-19-04@12:13:03-Baejah': {'StartTime': datetime.datetime(2023, 4, 19, 7, 0, tzinfo=<UTC>), 'User': 'Baejah', 'Description': 'Cek Mesin', 'EndTime': datetime.datetime(2023, 4, 19, 10, 59, tzinfo=<UTC>), 'Id': '2023-19-04@12:13:03-Baejah', 'Subject': 'LHL01', 'duration': datetime.timedelta(seconds=14340)}}
+
+
+        {
+            '2023-19-04@12:12:36-Produksi': {
+                'StartTime': datetime.datetime(2023, 4, 18, 7, 0, tzinfo=<UTC>), 
+                'User': 'Produksi', 
+                'Description': 'Bulk02', 
+                'EndTime': datetime.datetime(2023, 4, 18, 10, 59, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:12:36-Produksi', 
+                'Subject': 'LHL01'}, 
+            '2023-19-04@12:12:37-Produksi': {
+                'StartTime': datetime.datetime(2023, 4, 18, 12, 14, tzinfo=<UTC>), 
+                'User': 'Produksi', 
+                'Description': 'Bulk02', 
+                'EndTime': datetime.datetime(2023, 4, 18, 15, 13, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:12:37-Produksi', 
+                'Subject': 'LHL01'}, 
+            '2023-19-04@12:12:38-Produksi': {
+                'StartTime': datetime.datetime(2023, 4, 18, 15, 14, tzinfo=<UTC>), 
+                'User': 'Produksi', 
+                'Description': 'Bulk02', 
+                'EndTime': datetime.datetime(2023, 4, 18, 17, 13, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:12:38-Produksi', 
+                'Subject': 'LHL01'}, 
+            '2023-19-04@12:12:39-Produksi': {
+                'StartTime': datetime.datetime(2023, 4, 18, 17, 14, tzinfo=<UTC>), 
+                'User': 'Produksi', 
+                'Description': 'Bulk02', 
+                'EndTime': datetime.datetime(2023, 4, 18, 21, 13, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:12:38-Produksi', 
+                'Subject': 'LHL01'}, 
+            '2023-19-04@12:12:40-Produksi': {
+                'StartTime': datetime.datetime(2023, 4, 18, 21, 14, tzinfo=<UTC>), 
+                'User': 'Produksi', 
+                'Description': 'Bulk02', 
+                'EndTime': datetime.datetime(2023, 4, 19, 0, 13, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:12:38-Produksi', 
+                'Subject': 'LHL01'}, 
+            '2023-19-04@12:13:03-Baejah': {
+                'StartTime': datetime.datetime(2023, 4, 19, 7, 0, tzinfo=<UTC>), 
+                'User': 'Baejah', 
+                'Description': 'Cek Mesin', 
+                'EndTime': datetime.datetime(2023, 4, 19, 10, 59, tzinfo=<UTC>), 
+                'Id': '2023-19-04@12:13:03-Baejah', 
+                'Subject': 'LHL01'
+            }
+            }
+
+
+            {'EndTime': datetime.datetime(2023, 4, 18, 12, 14, tzinfo=<UTC>), 'StartTime': datetime.datetime(2023, 4, 18, 10, 59, tzinfo=<UTC>), 'Subject': 'LHL01', 'Description': 'cek mesin status', 'Id': '123bange', 'User': 'None'}
+
+            {'EndTime': datetime.datetime(2023, 4, 18, 12, 14, tzinfo=<UTC>), 'StartTime': datetime.datetime(2023, 4, 18, 10, 59, tzinfo=<UTC>), 'Subject': 'LHL01', 'Description': 'cek mesin status', 'Id': '123bange', 'User': 'None', 'duration': datetime.timedelta(seconds=4500)}
+
+
+            {'EndTime': datetime.datetime(2023, 4, 18, 19, 14, tzinfo=<UTC>), 'StartTime': datetime.datetime(2023, 4, 18, 12, 59, tzinfo=<UTC>), 'Subject': 'LHL01', 'Description': 'cek mesin status', 'Id': '123bange', 'User': 'None'}
+
+
+            {'2023-19-04@12:12:38-Produksi': {'StartTime': datetime.datetime(2023, 4, 18, 15, 0, tzinfo=<UTC>), 'User': 'Produksi', 'Description': 'Bulk02', 'EndTime': datetime.datetime(2023, 4, 18, 21, 59, tzinfo=<UTC>), 'Id': '2023-19-04@12:12:38-Produksi', 'Subject': 'LHL01', 'duration': datetime.timedelta(seconds=25140)}}
+
+
+
+            44.60553688262533
+            48.21594246122202
+            42.511099485727435
+            40.868642214367945
+            48.62917579477007
+            41.21924048305718, 43.840873407293046, 48.70504087166428, 47.38755757052882, 48.27369702724832, 44.79981561344502, 44.953700094931996, 48.035439084807145, 48.78714168171335, 49.66568052592223, 40.832628560335735, 46.18911566629325, 47.517809300817824, 43.69549366387038, 48.212458299072495, 47.34963183047137, 44.26450656715857, 46.95750731275229, 47.469113174942486\
+            42.804240222445735
+            43.47812360319536
