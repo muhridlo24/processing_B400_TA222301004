@@ -1,0 +1,86 @@
+{
+    "LHL01": {
+        "Temperature": {
+            "Danger": 90,
+            "High": 80,
+            "Warm": 60
+        },
+        "RPM": {
+            "Max": 2375.0,
+            "Min": 2625.0,
+            "Current": 2500
+        },
+        "CV": 0.01,
+        "Vibration": {
+            "Danger": 45.0,
+            "Alert": 4.5,
+            "Satisfactory": 1.8,
+            "Good": 0.71
+        },
+        "timedelta": 10,
+        "fs": 200
+    },
+    "Pompa": {
+        "Temperature": {
+            "Danger": 80,
+            "High": 60,
+            "Warm": 50
+        },
+        "RPM": {
+            "Max": 2600,
+            "Min": 2500,
+            "Current": 2550
+        },
+        "Current RPM": 2550,
+        "Vibration": {
+            "Danger": 45.0,
+            "Alert": 4.5,
+            "Satisfactory": 1.8,
+            "Good": 0.71
+        },
+        "timedelta": 20,
+        "fs": 2000
+    },
+    "LHL02": {
+        "Temperature": {
+            "Danger": 80,
+            "High": 60,
+            "Warm": 50
+        },
+        "RPM": {
+            "Max": 2381.7563999999998,
+            "Min": 2632.4676000000004,
+            "Current": 2507.112
+        },
+        "Current RPM": 2550,
+        "Vibration": {
+            "Danger": 45.0,
+            "Alert": 4.5,
+            "Satisfactory": 1.8,
+            "Good": 0.71
+        },
+        "timedelta": 20,
+        "fs": 1000
+    },
+    "LHL03": {
+        "Temperature": {
+            "Danger": 80,
+            "High": 60,
+            "Warm": 50,
+            "Current": 2547.287
+        },
+        "RPM": {
+            "Max": 2386.61185,
+            "Min": 2637.83415,
+            "Current": 2512.223
+        },
+        "Vibration": {
+            "Danger": 45.0,
+            "Alert": 4.5,
+            "Satisfactory": 1.8,
+            "Good": 0.71
+        },
+        "timedelta": 20,
+        "fs": 1000
+    }
+}
